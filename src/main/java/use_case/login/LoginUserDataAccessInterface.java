@@ -29,5 +29,5 @@ public interface LoginUserDataAccessInterface {
 
     void setCurrentUser(String name);
 
-    String getCurrentUser(String name);
+    String getCurrentUser();
 }
