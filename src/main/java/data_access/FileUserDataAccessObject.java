@@ -99,7 +99,7 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
 
     @Override
     public String getCurrentUser() {
-        return "null";
+        return null;
     }
 
     @Override

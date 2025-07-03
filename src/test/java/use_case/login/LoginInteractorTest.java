@@ -45,7 +45,7 @@ public class LoginInteractorTest {
     public void successUserLoggedInTest() {
         LoginInputData inputData = new LoginInputData("Paul", "password");
         LoginUserDataAccessInterface userRepository = new InMemoryUserDataAccessObject();
-        assertEquals("null", userRepository.getCurrentUser());
+        assertEquals(null, userRepository.getCurrentUser());
 
         // For the success test, we need to add Paul to the data access repository before we log in.
         UserFactory factory = new CommonUserFactory();
